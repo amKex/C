@@ -9,11 +9,16 @@ int main(){
     printStr(firstName);
     printStr(lastName);
 
-    //taking inputs and then printing them using "%s"   
+    //taking inputs and then printing them using "%s"
     char fullName[50];
     printf("\n");
     scanf("%s", fullName);
     printf("printed name using string format specifier > %s", fullName);
+
+    //taking intput using fgets and giving output using puts
+    char para[110];
+    gets(para);
+    puts(para);
 
     return 0;
 }
